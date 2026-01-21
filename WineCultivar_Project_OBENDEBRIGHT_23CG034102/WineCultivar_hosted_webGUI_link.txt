@@ -1,0 +1,6 @@
+Name: OBENDE BRIGHT
+Matric Number: 23CG034102
+Machine Learning Algorithm Used: Random Forest Classifier
+Model Persistence Method Used: Joblib (Pickle-based serialization)
+Live URL of the hosted application: https://winecultivarprojectpamdavid23cg034152-ey5dnf8buppd4toipwsado.streamlit.app/
+GitHub repository link: https://github.com/brunleobe/WineCultivar_Project_OBENDEBRIGHT_23CG034102

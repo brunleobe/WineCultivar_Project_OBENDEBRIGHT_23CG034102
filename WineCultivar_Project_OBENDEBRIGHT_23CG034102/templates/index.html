@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Wine Cultivar Predictor</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Wine Cultivar Origin Prediction</h1>
+        <form action="/predict" method="post">
+            <input type="number" step="any" name="alcohol" placeholder="Alcohol" required>
+            <input type="number" step="any" name="flavanoids" placeholder="Flavanoids" required>
+            <input type="number" step="any" name="color_intensity" placeholder="Color Intensity" required>
+            <input type="number" step="any" name="hue" placeholder="Hue" required>
+            <input type="number" step="any" name="od" placeholder="OD280/OD315" required>
+            <input type="number" step="any" name="proline" placeholder="Proline" required>
+            <button type="submit">Predict Cultivar</button>
+        </form>
+        <h3>{{ prediction_text }}</h3>
+    </div>
+</body>
+</html>
